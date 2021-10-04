@@ -1,0 +1,67 @@
+.date-time-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 0;
+}
+.container-fluid .navbar-nav {
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.news-container {
+  margin: 3% 0;
+}
+.card {
+  margin: 3% 0;
+  /* box-shadow: 0 0 0 2px rgba(128, 128, 128, 0.514); */
+  overflow: hidden;
+}
+/* .card:hover {
+  transform: scale(1.07);
+  transition: transform 500ms;
+} */
+.card-subtitle {
+  display: block;
+}
+
+.card-text {
+  line-height: 50px;
+}
+.card-link {
+  display: block;
+}
+.img-fluid {
+  padding: 2% 2%;
+  border-radius: 15px;
+  align-items: center;
+}
+.img-fluid:hover {
+  transform: scale(1.2);
+  transition: transform 1500ms;
+}
+.byline {
+  display: block;
+  font-weight: bold;
+}
+.card-link {
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+}
+
+b::after {
+  content: "";
+  display: block;
+  background-color: aqua;
+  height: 5px;
+  transform: scaleX(0);
+  transition: transform 500ms;
+}
+b:hover:after {
+  transform: scaleX(1);
+}
+
+b:hover {
+  color: aqua;
+  transition: color 1000ms;
+}
